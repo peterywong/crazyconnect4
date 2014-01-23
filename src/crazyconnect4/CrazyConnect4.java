@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author peterw
+ * @author peterw, crystalc
  */
 public class CrazyConnect4 {
         String name;

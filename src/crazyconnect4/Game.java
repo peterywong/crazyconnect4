@@ -8,7 +8,7 @@ package crazyconnect4;
 
 /**
  *
- * @author peterw
+ * @author peterw, crystalc
  */
 public class Game {
 
