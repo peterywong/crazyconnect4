@@ -29,6 +29,9 @@ public class Game {
        this.playerA.name = "Iron Man";
        this.playerB = new Player();
        this.playerB.name = "Hawkeye";
+       this.gameType = "Two Players";
+       this.status = "Starting game";
+       
        
     }
 
@@ -54,4 +57,14 @@ public class Game {
         this.playerB.displayName();
                               
     }
+    
+    public void displayGameStatus() {
+        System.out.println(
+             "\n\t Game Status: " + this.status + ".");                              
+    }    
+
+    public void displayGameType() {
+        System.out.println(
+             "\n\t Game Type: " + this.gameType + ".");                              
+    } 
 }

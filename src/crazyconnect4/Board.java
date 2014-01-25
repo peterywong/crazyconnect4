@@ -11,7 +11,7 @@ import javax.swing.table.AbstractTableModel;
 
 /**
  *
- * @author peterw crystalc
+ * @author peterw, crystalc
  */
 public class Board  {
     

@@ -45,6 +45,8 @@ public class CrazyConnect4 {
 
         Game game = new Game();
         game.displayPlayers();
+        game.displayGameType();
+        game.displayGameStatus();
         
     }
     public void getName(){
