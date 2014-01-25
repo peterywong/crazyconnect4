@@ -20,6 +20,7 @@ public class Game {
      Player winner;
      Player loser;
      String status;
+     int currentWins;
      Board board;
    
 
@@ -31,6 +32,7 @@ public class Game {
        this.playerB.name = "Hawkeye";
        this.gameType = "Two Players";
        this.status = "Starting game";
+       this.currentWins = 0;
        
        
     }
@@ -67,4 +69,9 @@ public class Game {
         System.out.println(
              "\n\t Game Type: " + this.gameType + ".");                              
     } 
+
+    public int getCurrentWins() {
+        return this.currentWins;                            
+    }    
+    
 }
